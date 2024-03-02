@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61C638022B92CE2C00A628DD /* Ideals_ReckonerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C638012B92CE2C00A628DD /* Ideals_ReckonerApp.swift */; };
+		61C638042B92CE2C00A628DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C638032B92CE2C00A628DD /* ContentView.swift */; };
+		61C638062B92CE2D00A628DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C638052B92CE2D00A628DD /* Assets.xcassets */; };
+		61C638092B92CE2D00A628DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C638082B92CE2D00A628DD /* Preview Assets.xcassets */; };
+		61C638132B92CE2D00A628DD /* Ideals_ReckonerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C638122B92CE2D00A628DD /* Ideals_ReckonerTests.swift */; };
+		61C6381D2B92CE2D00A628DD /* Ideals_ReckonerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C6381C2B92CE2D00A628DD /* Ideals_ReckonerUITests.swift */; };
+		61C6381F2B92CE2D00A628DD /* Ideals_ReckonerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C6381E2B92CE2D00A628DD /* Ideals_ReckonerUITestsLaunchTests.swift */; };
+		61C6382C2B92D08B00A628DD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 61C6382B2B92D08B00A628DD /* .gitignore */; };
+		61C6382E2B92D0C100A628DD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 61C6382D2B92D0C100A628DD /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61C6380F2B92CE2D00A628DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C637F62B92CE2C00A628DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61C637FD2B92CE2C00A628DD;
+			remoteInfo = "Ideals Reckoner";
+		};
+		61C638192B92CE2D00A628DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C637F62B92CE2C00A628DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61C637FD2B92CE2C00A628DD;
+			remoteInfo = "Ideals Reckoner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61C637FE2B92CE2C00A628DD /* Ideals Reckoner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ideals Reckoner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C638012B92CE2C00A628DD /* Ideals_ReckonerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ideals_ReckonerApp.swift; sourceTree = "<group>"; };
+		61C638032B92CE2C00A628DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61C638052B92CE2D00A628DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61C638082B92CE2D00A628DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61C6380E2B92CE2D00A628DD /* Ideals ReckonerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ideals ReckonerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C638122B92CE2D00A628DD /* Ideals_ReckonerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ideals_ReckonerTests.swift; sourceTree = "<group>"; };
+		61C638182B92CE2D00A628DD /* Ideals ReckonerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ideals ReckonerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C6381C2B92CE2D00A628DD /* Ideals_ReckonerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ideals_ReckonerUITests.swift; sourceTree = "<group>"; };
+		61C6381E2B92CE2D00A628DD /* Ideals_ReckonerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ideals_ReckonerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61C6382B2B92D08B00A628DD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		61C6382D2B92D0C100A628DD /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		61C6382F2B92D0DB00A628DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61C637FB2B92CE2C00A628DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C6380B2B92CE2D00A628DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C638152B92CE2D00A628DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61C637F52B92CE2C00A628DD = {
+			isa = PBXGroup;
+			children = (
+				61C6382F2B92D0DB00A628DD /* README.md */,
+				61C6382D2B92D0C100A628DD /* LICENSE */,
+				61C6382B2B92D08B00A628DD /* .gitignore */,
+				61C638002B92CE2C00A628DD /* Ideals Reckoner */,
+				61C638112B92CE2D00A628DD /* Ideals ReckonerTests */,
+				61C6381B2B92CE2D00A628DD /* Ideals ReckonerUITests */,
+				61C637FF2B92CE2C00A628DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61C637FF2B92CE2C00A628DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61C637FE2B92CE2C00A628DD /* Ideals Reckoner.app */,
+				61C6380E2B92CE2D00A628DD /* Ideals ReckonerTests.xctest */,
+				61C638182B92CE2D00A628DD /* Ideals ReckonerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61C638002B92CE2C00A628DD /* Ideals Reckoner */ = {
+			isa = PBXGroup;
+			children = (
+				61C638012B92CE2C00A628DD /* Ideals_ReckonerApp.swift */,
+				61C638032B92CE2C00A628DD /* ContentView.swift */,
+				61C638052B92CE2D00A628DD /* Assets.xcassets */,
+				61C638072B92CE2D00A628DD /* Preview Content */,
+			);
+			path = "Ideals Reckoner";
+			sourceTree = "<group>";
+		};
+		61C638072B92CE2D00A628DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				61C638082B92CE2D00A628DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		61C638112B92CE2D00A628DD /* Ideals ReckonerTests */ = {
+			isa = PBXGroup;
+			children = (
+				61C638122B92CE2D00A628DD /* Ideals_ReckonerTests.swift */,
+			);
+			path = "Ideals ReckonerTests";
+			sourceTree = "<group>";
+		};
+		61C6381B2B92CE2D00A628DD /* Ideals ReckonerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61C6381C2B92CE2D00A628DD /* Ideals_ReckonerUITests.swift */,
+				61C6381E2B92CE2D00A628DD /* Ideals_ReckonerUITestsLaunchTests.swift */,
+			);
+			path = "Ideals ReckonerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61C637FD2B92CE2C00A628DD /* Ideals Reckoner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C638222B92CE2D00A628DD /* Build configuration list for PBXNativeTarget "Ideals Reckoner" */;
+			buildPhases = (
+				61C637FA2B92CE2C00A628DD /* Sources */,
+				61C637FB2B92CE2C00A628DD /* Frameworks */,
+				61C637FC2B92CE2C00A628DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ideals Reckoner";
+			productName = "Ideals Reckoner";
+			productReference = 61C637FE2B92CE2C00A628DD /* Ideals Reckoner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61C6380D2B92CE2D00A628DD /* Ideals ReckonerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C638252B92CE2D00A628DD /* Build configuration list for PBXNativeTarget "Ideals ReckonerTests" */;
+			buildPhases = (
+				61C6380A2B92CE2D00A628DD /* Sources */,
+				61C6380B2B92CE2D00A628DD /* Frameworks */,
+				61C6380C2B92CE2D00A628DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61C638102B92CE2D00A628DD /* PBXTargetDependency */,
+			);
+			name = "Ideals ReckonerTests";
+			productName = "Ideals ReckonerTests";
+			productReference = 61C6380E2B92CE2D00A628DD /* Ideals ReckonerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61C638172B92CE2D00A628DD /* Ideals ReckonerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C638282B92CE2D00A628DD /* Build configuration list for PBXNativeTarget "Ideals ReckonerUITests" */;
+			buildPhases = (
+				61C638142B92CE2D00A628DD /* Sources */,
+				61C638152B92CE2D00A628DD /* Frameworks */,
+				61C638162B92CE2D00A628DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61C6381A2B92CE2D00A628DD /* PBXTargetDependency */,
+			);
+			name = "Ideals ReckonerUITests";
+			productName = "Ideals ReckonerUITests";
+			productReference = 61C638182B92CE2D00A628DD /* Ideals ReckonerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61C637F62B92CE2C00A628DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					61C637FD2B92CE2C00A628DD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					61C6380D2B92CE2D00A628DD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 61C637FD2B92CE2C00A628DD;
+					};
+					61C638172B92CE2D00A628DD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 61C637FD2B92CE2C00A628DD;
+					};
+				};
+			};
+			buildConfigurationList = 61C637F92B92CE2C00A628DD /* Build configuration list for PBXProject "Ideals Reckoner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61C637F52B92CE2C00A628DD;
+			productRefGroup = 61C637FF2B92CE2C00A628DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61C637FD2B92CE2C00A628DD /* Ideals Reckoner */,
+				61C6380D2B92CE2D00A628DD /* Ideals ReckonerTests */,
+				61C638172B92CE2D00A628DD /* Ideals ReckonerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61C637FC2B92CE2C00A628DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C638092B92CE2D00A628DD /* Preview Assets.xcassets in Resources */,
+				61C6382C2B92D08B00A628DD /* .gitignore in Resources */,
+				61C6382E2B92D0C100A628DD /* LICENSE in Resources */,
+				61C638062B92CE2D00A628DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C6380C2B92CE2D00A628DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C638162B92CE2D00A628DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61C637FA2B92CE2C00A628DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C638042B92CE2C00A628DD /* ContentView.swift in Sources */,
+				61C638022B92CE2C00A628DD /* Ideals_ReckonerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C6380A2B92CE2D00A628DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C638132B92CE2D00A628DD /* Ideals_ReckonerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C638142B92CE2D00A628DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C6381D2B92CE2D00A628DD /* Ideals_ReckonerUITests.swift in Sources */,
+				61C6381F2B92CE2D00A628DD /* Ideals_ReckonerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61C638102B92CE2D00A628DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61C637FD2B92CE2C00A628DD /* Ideals Reckoner */;
+			targetProxy = 61C6380F2B92CE2D00A628DD /* PBXContainerItemProxy */;
+		};
+		61C6381A2B92CE2D00A628DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61C637FD2B92CE2C00A628DD /* Ideals Reckoner */;
+			targetProxy = 61C638192B92CE2D00A628DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61C638202B92CE2D00A628DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61C638212B92CE2D00A628DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61C638232B92CE2D00A628DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ideals Reckoner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.Ideals-Reckoner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61C638242B92CE2D00A628DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ideals Reckoner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.Ideals-Reckoner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61C638262B92CE2D00A628DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.Ideals-ReckonerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ideals Reckoner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ideals Reckoner";
+			};
+			name = Debug;
+		};
+		61C638272B92CE2D00A628DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.Ideals-ReckonerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ideals Reckoner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ideals Reckoner";
+			};
+			name = Release;
+		};
+		61C638292B92CE2D00A628DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.Ideals-ReckonerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ideals Reckoner";
+			};
+			name = Debug;
+		};
+		61C6382A2B92CE2D00A628DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.Ideals-ReckonerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ideals Reckoner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61C637F92B92CE2C00A628DD /* Build configuration list for PBXProject "Ideals Reckoner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C638202B92CE2D00A628DD /* Debug */,
+				61C638212B92CE2D00A628DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C638222B92CE2D00A628DD /* Build configuration list for PBXNativeTarget "Ideals Reckoner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C638232B92CE2D00A628DD /* Debug */,
+				61C638242B92CE2D00A628DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C638252B92CE2D00A628DD /* Build configuration list for PBXNativeTarget "Ideals ReckonerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C638262B92CE2D00A628DD /* Debug */,
+				61C638272B92CE2D00A628DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C638282B92CE2D00A628DD /* Build configuration list for PBXNativeTarget "Ideals ReckonerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C638292B92CE2D00A628DD /* Debug */,
+				61C6382A2B92CE2D00A628DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61C637F62B92CE2C00A628DD /* Project object */;
+}
